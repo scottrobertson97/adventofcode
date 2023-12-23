@@ -7,7 +7,7 @@
 //   'Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red',
 //   'Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green'];
 
-const data = require('fs').readFileSync('2.txt').toString().split('\r\n');
+const data = require('fs').readFileSync('../../resource/2023/2.txt').toString().split('\r\n');
 
 let sum = 0;
 data.forEach(game => {

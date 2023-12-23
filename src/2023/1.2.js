@@ -4,7 +4,7 @@
 // const data = ['two1nine', 'eightwothree', 'abcone2threexyz', 'xtwone3four', '4nineeightseven2', 'zoneight234', '7pqrstsixteen'];
 // const data = ['xtwone3four'];
 
-const data = require('fs').readFileSync('1.txt').toString().split('\r\n');
+const data = require('fs').readFileSync('../../resource/2023/1.txt').toString().split('\r\n');
 
 const spelledNumsDict = {
   one: '1',

@@ -3,7 +3,7 @@
 // test case
 // const data = ['1abc2', 'pqr3stu8vwx', 'a1b2c3d4e5f', 'treb7uchet'];
 
-const data = require('fs').readFileSync('1.txt').toString().split('\r\n');
+const data = require('fs').readFileSync('../../resource/2023/1.txt').toString().split('\r\n');
 
 function v1(data) {
   const nums = [];

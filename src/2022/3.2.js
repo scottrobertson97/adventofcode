@@ -3,7 +3,7 @@
 // test case
 // const data = ['vJrwpWtwJgWrhcsFMMfFFhFp', 'jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL', 'PmmdzqPrVvPwwTWBwg', 'wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn', 'ttgJtRGJQctTZtZT', 'CrZsJsPPZsGzwwsLwLmpwMDw'];
 
-const data = require('fs').readFileSync('3.txt').toString().split('\r\n');
+const data = require('fs').readFileSync('../../resource/2022/3.txt').toString().split('\r\n');
 
 let sum = 0;
 

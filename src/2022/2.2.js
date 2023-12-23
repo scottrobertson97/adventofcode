@@ -3,7 +3,7 @@
 // test case
 // const data = ['A Y', 'B X', 'C Z'];
 
-const data = require('fs').readFileSync('2.txt').toString().split('\r\n');
+const data = require('fs').readFileSync('../../resource/2022/2.txt').toString().split('\r\n');
 
 const types = { A: 'Rock', X: 'Rock', B: 'Paper', Y: 'Paper', C: 'Scissors', Z: 'Scissors' };
 const points = { 'Rock': 1, 'Paper': 2, 'Scissors': 3 };
