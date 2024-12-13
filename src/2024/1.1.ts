@@ -1,7 +1,7 @@
 const sort = (a: number, b: number) => a - b
 
-export default function run(input: string) {
-  const inputArr = input.replaceAll("   ", "\r\n").split("\r\n")
+export default function run(input: string): number {
+  const inputArr = input.replaceAll('   ', '\r\n').split('\r\n')
   const left = []
   const right = []
   for (let i = 0; i < inputArr.length; i += 2) {
@@ -14,5 +14,5 @@ export default function run(input: string) {
   for (let i = 0; i < left.length; i++) {
     total += Math.abs(left[i] - right[i])
   }
-  console.log(total)
+  return total
 }
