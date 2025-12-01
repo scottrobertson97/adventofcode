@@ -8,6 +8,8 @@ import d41 from './src/2024/4.1.ts'
 import d42 from './src/2024/4.2.ts'
 import d51 from './src/2024/5.1.ts'
 import d52 from './src/2024/5.2.ts'
+import d61 from './src/2024/6.1.ts'
+import d62 from './src/2024/6.2.ts'
 
 const solutions = {
   2023: {},
@@ -17,6 +19,7 @@ const solutions = {
     3: { 1: d31, 2: d32 },
     4: { 1: d41, 2: d42 },
     5: { 1: d51, 2: d52 },
+    6: { 1: d61, 2: d62 },
   },
 }
 
