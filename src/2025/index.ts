@@ -8,6 +8,8 @@ import d41 from './4.1.ts'
 import d42 from './4.2.ts'
 import d51 from './5.1.ts'
 import d52 from './5.2.ts'
+import d61 from './6.1.ts'
+import d62 from './6.2.ts'
 
 export default {
   1: { 1: d11, 2: d12 },
@@ -15,4 +17,5 @@ export default {
   3: { 1: d31, 2: d32 },
   4: { 1: d41, 2: d42 },
   5: { 1: d51, 2: d52 },
+  6: { 1: d61, 2: d62 },
 }

@@ -19,8 +19,8 @@ function compactRanges(ranges: [number, number][]): [number, number][] {
 }
 
 export default function run(input: string): number {
-  const [ranges, ingredients] = input.split('\r\n\r\n')
-  let parsedRanges = ranges
+  const [ranges] = input.split('\r\n\r\n')
+  const parsedRanges = ranges
     .split('\r\n')
     .map(line => line.split('-').map(Number))
 
