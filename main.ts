@@ -1,7 +1,7 @@
 import { solutions } from './index.ts'
 
 const year = 2025
-const day = 6
+const day = 9
 const part = 2
 
 const input = await Deno.readTextFile(`./input/${year}.${day}.txt`)
