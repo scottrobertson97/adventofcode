@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "scripts": {
+    "solve": "node main.js",
+    "dev": "node --watch main.js"
+  }
+}
